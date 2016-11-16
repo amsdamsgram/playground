@@ -1,21 +1,36 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import styled, { ThemeProvider } from 'styled-components'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+import Header from './Header'
+import Button from './Button'
+import ButtonTomato from './ButtonTomato'
+
+const AppWrapper = styled.div`
+  text-align: center;
+`
+
+const AppIntro = styled.p`
+  font-size: large;
+`
+
+const greenTheme = {
+  main: 'mediumseagreen'
 }
 
-export default App;
+export default class App extends Component {
+  render() {
+    return (
+      <AppWrapper>
+        <Header />
+        <AppIntro>
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </AppIntro>
+        <Button>Click me!</Button>
+        <ButtonTomato>I'm a tomato!</ButtonTomato>
+        <ThemeProvider theme={greenTheme}>
+          <Button>Themed</Button>
+        </ThemeProvider>
+      </AppWrapper>
+    )
+  }
+}

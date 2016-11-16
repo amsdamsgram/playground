@@ -7,12 +7,21 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "styled-components": "^1.0.10"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "testing stuff",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:iDams/mindmint.git",
+    "type": "git"
+  },
+  "author": "Damien Soulard <damien.soulard@gmail.com>",
+  "license": "MIT"
 }
