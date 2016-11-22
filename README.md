@@ -1,6 +1,6 @@
-# mindmint
+# mindmint :herb:
 
-This is a React project that I use to play with libraries I might not use at work.
+This is a React project that I use to play with libraries I might not use at work but I am interested in.
 
 ## Tested
 - [x] [create-react-app](https://github.com/facebookincubator/create-react-app)
