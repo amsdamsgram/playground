@@ -1,6 +1,8 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
+import Menu from './Menu'
+
 import logo from './logo.svg'
 
 const rotate360 = keyframes`
@@ -14,7 +16,6 @@ const rotate360 = keyframes`
 
 const WrapperHeader = styled.div`
   background-color: #222;
-  height: 150px;
   padding: 20px;
 `
 
@@ -31,6 +32,7 @@ const Header = () =>
   <WrapperHeader>
     <Logo src={logo} alt="logo" />
     <Title>Welcome to React</Title>
+    <Menu />
   </WrapperHeader>
 
 export default Header
