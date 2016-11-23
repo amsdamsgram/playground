@@ -1,4 +1,4 @@
-# :herb: mindmint
+# :game_die: playground
 
 This is a React project that I use to play with libraries I might not use at work but I am interested in.
 
