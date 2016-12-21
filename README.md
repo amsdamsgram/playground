@@ -9,7 +9,9 @@ This is a React project that I use to play with libraries I might not use at wor
 - [x] [react-router v4](https://github.com/ReactTraining/react-router/tree/v4)
 
 ## :construction: To test
+- [ ] Jest
 - [ ] Flow
-- [ ] react-virtualized
+- [ ] Styletron
 - [ ] Reactotron
 - [ ] Elm
+- [ ] Code spliting with Webpack
